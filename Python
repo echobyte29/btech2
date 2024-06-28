@@ -1,0 +1,276 @@
+# w3resources first 150 questions
+
+
+# ques 1
+# print("Twinkle, twinkle, little star,")
+# print("        How I wonder what you are!")
+# print("                 Up above the world so high,")
+# print("                 Like a diamond in the sky.")
+# print("Twinkle, twinkle, little star,")
+# print("         How I wonder what you are!")
+# or
+# space=(" ")
+# print("Twinkle, twinkle, little star,")
+# print(space*8 + "How I wonder what you are!")
+# print(space*16 + "Up above the world so high,")
+# print(space*16 + "Like a diamond in the sky.")
+# print("Twinkle, twinkle, little star,")
+# print(space*8 + "How I wonder what you are!")
+
+# ques 2
+# import sys
+# print("Python version: " + sys.version)
+# print("Version info: ")
+# print(sys.version_info)
+
+# ques 3
+# import datetime
+# now=datetime.datetime.now()
+# print(now.strftime("date: %d/%m/%Y\ntime: %H:%M:%S"))
+
+# ques 4
+# from math import pi
+# radius = float(input())
+# print("area of the circle is: " + str(pi * radius ** 2))
+
+# ques 5
+# print("Enter First name: ")
+# first_name = str(input())
+# print("Enter Last name: ")
+# last_name = str(input())
+# print("Reverse Order: ")
+# print(last_name + " " + first_name)
+
+# ques 6
+
+
+# ques 7
+
+
+
+# print("Input filename: ")
+# filename = str(input())
+# print(filename.split("."))
+
+# ques 8
+# color_list=["Red","Green","White" ,"Black"]
+# print(color_list[3],color_list[0])
+## learn how to get size
+
+# ques 9
+
+# ques 10
+# a=int(input())
+# print(a+a*11+a*111)
+
+#11,12,13,14
+
+# ques 15
+# r=int(input())
+# print(4/3*3.14*r**3)
+
+# ques 16
+# n=float(input())
+# if(n>17):
+#     print((n-17)*2)
+# else:
+#     print("Enter value > 17")
+
+# ques 17
+# print("Enter a number: ")
+# a=int(input())
+# if a<100:
+#     print("Number is within 100")
+# elif a>=100 and a<1000:
+#     print("Number is greater than or equal to 100 and within 1000")
+# elif a>=1000 and a<2000:
+#     print("Number is greater than or equal to 1000 and within 2000")
+# else:
+#     print("Number is greater than or equal to 2000")
+
+# ques 18
+# print("Enter 1st number: ")
+# num_1=int(input())
+# print("Enter 2st number: ")
+# num_2=int(input())
+# print("Enter 3st number: ")
+# num_3=int(input())
+# if num_1==num_2==num_3:
+#     print("Sum of the numbers is: " + str(num_1*3))
+# else:
+#     print("Sum of the numbers is: " + str(num_1+num_2+num_3))
+
+#19
+
+# ques 20
+# print("Enter a string: ")
+# string=str(input())
+# print("Enter number of repetitions: ")
+# rep=int(input())
+# print(string*rep)
+
+# ques 21
+# print("Enter a number: ")
+# num=int(input())
+# if num%2==0:
+#     print("It is an even number")
+# else:
+#     print("It is a odd number")
+
+# ques 22
+
+
+
+# print("Enter number of integers in the list: ")
+# num=int(input())
+# print("Enter a list of numbers: ")
+# list = [num]
+# print(list[4])
+
+#23
+
+# ques 24
+# print("Enter a letter: ")
+# letter_1=str(input())
+# letter=letter_1.lower()
+# if letter=="a" or letter=="e" or letter=="i" or letter=="o" or letter=="u":
+#     print("It is a Vowel")
+# else:
+#     print("It is a consonant")
+
+# ques 25
+
+
+# print("Enter a number: ")
+# num=int(input())
+# for i in range(0,100):
+#     list = [i]
+#     if(num==i):
+#         print("Number is in the list")
+#     else:
+#         print("Number is not in the list")
+
+# ques 26
+# ques 27
+
+# ques 28
+# numbers = [    
+#     386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
+#     399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
+#     815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 
+#     958,743, 527]
+# list_1=[]
+# for i in numbers:
+#     if i % 2 == 0:
+#         list_1+=[i]
+#         #This program will print all the 
+#     elif i==237:
+#         break
+#     else:
+#         pass
+# print(list_1)
+    
+# ques 29
+
+
+# print("Enter list_1 of colors: ")
+# list_1 = set([str(input())])
+# print("Enter list_2 of colors: ")
+# list_2 = set([str(input())])
+# print("Original lists of colors: ")
+# print(list_1)
+# print(list_2)
+# print("Difference of list_1 and list_2: " + str(list_1.difference(list_2)))
+
+
+
+# ques 30
+# print("Enter base of the triangle:")
+# base=int(input())
+# print("Enter height of the triangle:")
+# height=int(input())
+# area=1/2*base*height
+# print("Area of the triangle = " +str(area))
+
+# ques 31
+# from math import gcd
+# print("Enter two numbers:")
+# a=int(input())
+# b=int(input())
+# print("GCD of the two numbers is: " + str(gcd(a,b)))
+
+# ques 32
+# from math import lcm
+# print("Enter two numbers:")
+# a=int(input())
+# b=int(input())
+# print("LCM of the two numbers is: " + str(lcm(a,b)))
+
+# ques 33
+# print("Enter three numbers: ")
+# a=int(input())
+# b=int(input())
+# c=int(input())
+# if a==b or b==c or a==c:
+#     print("Sum is: 0")
+# else:
+#     print("Sum is: " + str(a+b+c))
+
+# ques 34
+# print("Enter two numbers: ")
+# a=int(input())
+# b=int(input())
+# if a+b>=15 and a+b<=20:
+#     print("Sum is: 20")
+# else:
+#     print("Sum is: " + str(a+b))
+
+# ques 35
+# print("Enter two numbers: ")
+# a=int(input())
+# b=int(input())
+# if a==b or a+b==5 or a-b==5 or b-a==5:
+#     print("true")
+# else:
+#     print("false")
+
+#36, 
+
+# ques 37
+# print("Enter your name: ")
+# name=str(input())
+# print("Enter your age: ")
+# age=int(input())
+# print("Enter your address: ")
+# address=str(input())
+# print("Name: " + str(name))
+# print("Age: " + str(age))
+# print("Address: " + str(address))
+
+# ques 38
+# print("Enter two numbers: ")
+# a=int(input())
+# b=int(input())
+# print("Operation (a+b)*(a+b) gives: " + str((a+b)*(a+b)))
+
+# ques 39
+# print("Enter amount: ")
+# a=float(input())
+# print("Enter rate of interest: ")
+# b=float(input())
+# print("Enter no. of years: ")
+# c=int(input())
+# future_value = a * ((1 + (0.01 * b)) ** c)
+# print("Approx return: " + str(round(future_value,2)))
+
+# ques 40
+# from math import sqrt
+# print("Enter point x1: ")
+# x1 = float(input())
+# print("Enter point y1: ")
+# y1 = float(input())
+# print("Enter point x2: ")
+# x2 = float(input())
+# print("Enter point y2: ")
+# y2 = float(input())
+# print("Distance between two points is: " + str(sqrt((x2-x1) ** 2 + (y2-y1) ** 2)))
